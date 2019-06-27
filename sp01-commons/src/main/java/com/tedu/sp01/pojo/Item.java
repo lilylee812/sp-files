@@ -8,7 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Item {
+	
 	private Integer id;
+	//Ãû³Æ
 	private String name;
+	//»ý·Ö
 	private Integer number;
 }

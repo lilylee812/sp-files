@@ -10,10 +10,11 @@ import lombok.NoArgsConstructor;
 public class Item {
 	
 	private Integer id;
-	//名称
+	//脙没鲁脝
 	private String name;
-	//积分
+	//禄媒路脰
 	private Integer number;
 	
 	//111111111111
+	//222222222222
 }

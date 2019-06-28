@@ -1,7 +1,6 @@
 sp:
   user-service:
-    users:"[{\"id\":7, \"username\":\"abc\",\"password\":\"123\"}]"
-    
+    users: "[{\"id\":7, \"username\":\"abc\",\"password\":\"123\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"}]"
 
 spring:
   application:
@@ -10,11 +9,10 @@ spring:
 server:
   port: 8101
   
-#添加注册中心配置 
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+      defaultZone: http://eureka1:2001/eureka, http://eureka1:2002/eureka
 
 management:
   endpoints:
